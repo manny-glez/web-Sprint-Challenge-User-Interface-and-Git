@@ -79,12 +79,10 @@ p {
     flex-wrap: nowrap;
     margin: 0 -9px 0px 10px ;
     padding: 20px;
-    /* border: solid red 5px; */
     padding-top: 27px;
     padding-bottom: 29px;
     padding-left: 0px;
 }
-
 
 
 .top-nav h1 {
@@ -98,15 +96,23 @@ p {
     color: black;
     font-size: 13px;
     font-weight: bold;
-    /* border: solid blue 1px; */
     text-align: center;
+    
+
+}
+
+.top-nav nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+    margin-top: 20px;
 }
 
 
 
 
 #logo {
-    /* border: 1px red solid; */
     padding-top: 30px;
     padding-bottom: 0px;
 }
@@ -206,14 +212,11 @@ p {
     border-bottom: dotted grey;
     margin-bottom: 15px;
 }
-
-
 /* about top section end */
 
 /* About middle section start */
 
 .grid {
-    /* border: blue 5px solid; */
     width: 400px;
     border-bottom: dotted grey;
     margin: 6px 6px 
@@ -221,7 +224,6 @@ p {
 
 .last-two-boxes {
     display: flex;
-    /* border: 5px lightgreen solid; */
     margin-bottom: 40px;
 }
 .last-two-boxes button {
@@ -233,11 +235,9 @@ p {
     margin-bottom:13px ;
 }
 
-
-
 /* about middle section end */
 
-
+/* bottom content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
