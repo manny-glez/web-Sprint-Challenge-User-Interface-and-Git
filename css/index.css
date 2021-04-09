@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
@@ -130,7 +131,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-/* Middle Start */
+/* Middle box section Start */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -197,7 +198,45 @@ p {
     background-color: dodgerblue;
 }
 
-/* middel End */
+/* middle box section End */
+
+/* about top section start */
+.about-textbox {
+    padding: 20px;
+    border-bottom: dotted grey;
+    margin-bottom: 15px;
+}
+
+
+/* about top section end */
+
+/* About middle section start */
+
+.grid {
+    /* border: blue 5px solid; */
+    width: 400px;
+    border-bottom: dotted grey;
+    margin: 6px 6px 
+}
+
+.last-two-boxes {
+    display: flex;
+    /* border: 5px lightgreen solid; */
+    margin-bottom: 40px;
+}
+.last-two-boxes button {
+    padding: 8px 9px;
+    border: black 2.3px solid;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    margin-bottom:13px ;
+}
+
+
+
+/* about middle section end */
+
 
 .bottom-content {
     display: flex;
@@ -225,6 +264,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-top: 24px;
 }
 
 footer nav a {
